@@ -1,4 +1,6 @@
-﻿<link rel="import" href="../../polymer-elements/polymer-ajax/polymer-ajax.html">
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../polymer-ajax/polymer-ajax.html">
+
 <polymer-element name="x-file-document" attributes="text fileName root">
   <template>
     <polymer-ajax id="post" method="POST" on-polymer-complete="{{postComplete}}"></polymer-ajax>
