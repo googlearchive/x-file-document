@@ -2,7 +2,8 @@
   "name": "x-file-document",
   "private": true,
   "dependencies": {
-    "polymer": "Polymer/polymer#master",
-    "polymer-ajax": "Polymer/polymer-ajax#master"
-  }
+    "polymer": "Polymer/polymer#0.2.2",
+    "polymer-ajax": "Polymer/polymer-ajax#0.2.2"
+  },
+  "version": "0.2.2"
 }
